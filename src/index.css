@@ -33,7 +33,7 @@ a {
   background: #555;
 }
 ::-webkit-scrollbar-thumb {
-  background: #545fc4;
+  background: #f56539;
   border-radius: 10px;
   transition: 0.3s;
 }
