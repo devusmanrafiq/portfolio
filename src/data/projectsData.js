@@ -33,7 +33,7 @@ export const projectsData = [
       "Designed and developed the front-end UI, ensuring role-based access to features such as billing, client management, and analytics. Also performed integration for seamless functionality allowing users to manage clients, assign services and monitor analytics through charts.",
     tags: ["HTML", "CSS", "Typescript", "React", "React Query"],
     code: "",
-    demo: "https://musemeal.ch/",
+    demo: "https://system.cgevolution.com/",
     image: Case,
   },
   {
