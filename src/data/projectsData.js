@@ -1,18 +1,20 @@
-import Memeslab from "../assets/png/memeslab.png";
+import Lab from "../assets/png/lab.png";
 import ProjectDragon from "../assets/svg/project-dragon.svg";
 import Aqleh from "../assets/png/aec.png";
 import Case from "../assets/png/case.png";
+import Resilioo from "../assets/png/resilioo.png";
+import Ivyhold from "../assets/png/ivyhold.png";
 
 export const projectsData = [
   {
     id: 1,
-    projectName: "Memes Lab (Telegram Mini App)",
+    projectName: "Lab (Telegram Mini App)",
     projectDesc:
-      "Developed a dynamic game where players collect unique meme characters and compete in real-time PvP matches. Designed features like tap-tap battles where players can participate to outscore their opponents in a  fast-paced, strategy-driven gameplay experience.",
+      "A decentralized exchange platform where users can create, buy and sell tokens using TON cryptocurrency. Users can buy and sell tokens with the bonding curve mechanism determining token prices dynamically based on supply and demand, ensuring a fair and transparent trading process.",
     tags: ["HTML", "CSS", "Typescript", "React"],
     code: "",
-    demo: "https://memeslab.xyz/",
-    image: Memeslab,
+    demo: "https://about.lab.pro/",
+    image: Lab,
   },
   {
     id: 2,
@@ -22,8 +24,7 @@ export const projectsData = [
     tags: ["HTML", "CSS", "Typescript", "React", "Ant Design"],
     code: "",
     demo: "https://resilioo.com/",
-    image:
-      "https://resilio-bucket.s3.amazonaws.com/assets/images/dashboard-resilioo.svg",
+    image: Resilioo,
   },
 
   {
@@ -43,7 +44,7 @@ export const projectsData = [
       "A project and task management platform similar to Trello. My responsibilities included designing and integration of front-end with backend systems to enable seamless task creation, assignment and management. Focused on enhancing platform scalability, performance and overall user experience.",
     tags: ["HTML", "CSS", "Typescript", "React", "React Query"],
     code: "",
-    demo: "http://project-dragon-website.s3-website.us-east-2.amazonaws.com/",
+    demo: "https://projectdragon.com/",
     image: ProjectDragon,
   },
   {
@@ -66,6 +67,16 @@ export const projectsData = [
     code: "",
     demo: "https://aqleh.com/",
     image: Aqleh,
+  },
+  {
+    id: 6,
+    projectName: "Ivyhold",
+    projectDesc:
+      "Contributed to the front-end development of a luxury real estate advisory platform using React.js. Focused on showcasing premium property listings and services through a modern and elegant interface.",
+    tags: ["HTML", "CSS", "Typescript", "React", "Ant Design"],
+    code: "",
+    demo: "https://ivyhold.com/",
+    image: Ivyhold,
   },
 ];
 
