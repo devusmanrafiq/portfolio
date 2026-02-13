@@ -5,10 +5,15 @@ export const skillsData = [
   "Typescript",
   "React",
   "Next JS",
+  "Node JS",
+  "MongoDB",
+  "Docker",
+  "AWS",
   "Git",
   "Tailwind",
   "MaterialUI",
   "Bootstrap",
+  "Figma",
   "Microsoft Office",
 ];
 

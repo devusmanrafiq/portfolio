@@ -2,7 +2,7 @@ export const experienceData = [
   {
     id: 1,
     company: "IR Solutions",
-    jobtitle: "Front-End Developer",
+    jobtitle: "Full Stack Developer",
     startYear: "2023",
     endYear: "Present",
   },
