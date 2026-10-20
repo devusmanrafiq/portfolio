@@ -6,6 +6,7 @@ import Resilioo from "../assets/png/resilioo.png";
 import Ivyhold from "../assets/png/ivyhold.png";
 import Albarakah from "../assets/svg/layers-farm.svg";
 import Nearby from "../assets/svg/nearby.svg";
+import PMLA from "../assets/svg/pmla.png";
 
 export const projectsData = [
   {
@@ -21,6 +22,17 @@ export const projectsData = [
 
   {
     id: 2,
+    projectName: "Projection Mapping Los Angeles",
+    projectDesc:
+      "A cinematic single-page site for an LA projection mapping and AV production studio. Features a scroll-driven video story with chapter-based transitions and reverse playback, a Three.js 3D projector model, GSAP and Lenis scroll animations, and full technical SEO with JSON-LD structured data.",
+    tags: ["NextJS", "Typescript", "ThreeJS", "GSAP"],
+    code: "",
+    demo: "https://pmlaproductions.com/",
+    image: PMLA,
+  },
+
+  {
+    id: 3,
     projectName: "Al-Barakah Foods Management",
     projectDesc:
       "An enterprise-grade poultry business management platform handling egg production, chicken sales, feed inventory, imports/exports, and financial operations. Built centralized dashboards for real-time flock monitoring, stock alerts, expense tracking, vendor and buyer ledgers, and detailed profit/loss reporting to support data-driven operational decisions.",
@@ -31,7 +43,7 @@ export const projectsData = [
   },
 
   {
-    id: 3,
+    id: 4,
     projectName: "Nearby.pk",
     projectDesc:
       "A full-stack service marketplace connecting customers with verified local service providers such as electricians, plumbers, and cleaners. Delivered SEO-optimized service discovery, real-time booking management, admin and provider dashboards, secure payment workflows, and AI-assisted content generation for scalable service onboarding.",
@@ -42,7 +54,7 @@ export const projectsData = [
   },
 
   {
-    id: 4,
+    id: 5,
     projectName: "365 Case Management",
     projectDesc:
       "An enterprise case management system with role-based access control for billing, client operations, and analytics. Developed complex UI workflows for service assignment, client lifecycle management, and real-time reporting dashboards to support operational transparency and performance monitoring.",
@@ -53,7 +65,7 @@ export const projectsData = [
   },
 
   {
-    id: 5,
+    id: 6,
     projectName: "Resilioo",
     projectDesc:
       "A mental wellness platform focused on anxiety and emotional health management. Built a responsive and accessible frontend allowing users to track moods, visualize emotional trends, and receive personalized guidance through a clean, intuitive interface optimized for long-term user engagement.",
@@ -64,7 +76,7 @@ export const projectsData = [
   },
 
   {
-    id: 6,
+    id: 7,
     projectName: "Project Dragon",
     projectDesc:
       "A collaborative project and task management platform inspired by Trello. Built scalable frontend architecture supporting real-time task creation, assignment, and workflow organization while focusing on performance optimization, intuitive UX, and seamless backend integration.",
@@ -75,7 +87,7 @@ export const projectsData = [
   },
 
   {
-    id: 7,
+    id: 8,
     projectName: "Muse Meal",
     projectDesc:
       "A diet and meal planning platform designed for fitness trainers to manage and share personalized nutrition plans with clients. Developed feature-rich frontend modules for recipe management, meal scheduling, and client interaction with a strong focus on usability and efficient data handling.",
@@ -87,7 +99,7 @@ export const projectsData = [
   },
 
   {
-    id: 8,
+    id: 9,
     projectName: "Aqleh Engineering Consultant",
     projectDesc:
       "A corporate website for an engineering consultancy firm built with Next.js for high SEO performance and fast load times. Delivered a modern, responsive interface with interactive sections showcasing infrastructure, architecture, and engineering projects to strengthen brand presence and lead generation.",
@@ -98,7 +110,7 @@ export const projectsData = [
   },
 
   {
-    id: 9,
+    id: 10,
     projectName: "Ivyhold",
     projectDesc:
       "A luxury real estate advisory platform showcasing premium property listings and services. Contributed to front-end development with a strong emphasis on elegant UI, visual hierarchy, and performance to align with high-end brand positioning.",
