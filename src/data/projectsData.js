@@ -6,7 +6,7 @@ import Resilioo from "../assets/png/resilioo.png";
 import Ivyhold from "../assets/png/ivyhold.png";
 import Albarakah from "../assets/svg/layers-farm.svg";
 import Nearby from "../assets/svg/nearby.svg";
-import PMLA from "../assets/svg/pmla.png";
+import PMLA from "../assets/png/pmla.png";
 
 export const projectsData = [
   {
